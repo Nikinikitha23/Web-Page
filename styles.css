@@ -1,0 +1,153 @@
+body{
+	margin:0 auto;
+	width:0 auto;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+.header{
+	float:left;
+	width:100%;
+	background-color:black;
+	color:white;	
+	text-align:center;
+}
+
+.navbar li{
+	display:inline;
+	padding:0em 3em 0em 3em;
+	font-family: "Open Sans", sans-serif;
+	font-size:18px;
+	font-weight:400;
+	text-transform:uppercase;
+}
+
+.menu{
+	text-decoration:none;
+	color:white;
+}
+
+.herosection {
+	float:left;
+	width:100%;
+	background-image:url("../images/image_01.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	color:white;
+	text-align:center;
+}
+
+.herosection h2{
+	font-family: "Rochester", cursive;
+	font-size:200px;
+	font-weight:400;
+	text-transform:Capitalize;
+}
+
+.herosection p{
+	font-family: "Open Sans", sans-serif;
+	font-size:25px;
+	font-weight:400;
+}
+
+.specials{
+	float:left;
+	width:100%;
+}
+
+.specials h3{
+	text-align:center;
+	font-family: "Raleway", sans-serif;
+	font-size:70px;
+	font-weight:400;
+}
+
+.line{
+	width:8%;
+	border:2px solid red;
+}
+
+.special_01{
+	float:left;
+	width:33%;
+	text-align:center;
+}
+
+.special_01 img{
+	width:75%;
+}
+
+.specials h4{
+	font-family: "Open Sans", sans-serif;
+	font-size:30px;
+	font-weight:400;	
+}
+
+.specials p{
+	font-family: "Open Sans", sans-serif;
+	font-size:14px;
+	font-weight:400;
+	padding:0em 7em 0em 7em;
+}
+
+.contact_form{
+	float:left;
+	width:100%;
+	text-align:center;
+	background-color:#3c3c3c;
+	padding:10em 0em 10em 0em;
+}
+
+.form_input{
+	width:20%;
+	height:40px;
+}
+
+.message{
+	width:40%;
+	height:100px;
+}
+
+.btn_submit{
+	border-radius:10px;
+	background-color:gray;
+	text-align:center;
+	width:10%;
+	height:40px;
+}
+
+.btn_submit:hover{
+	background-color:green;
+}
+
+.footer{
+	float:left;
+	width:100%;
+	background-color:black;
+	color:white;	
+}
+
+.footer_01 {
+	float:left;
+	width:50%;	
+	font-family: "Open Sans", sans-serif;
+	font-size:15px;
+	font-weight:400;	
+	text-align:center;
+}
+
+.footer_01 p{
+	padding-top:20px;
+}
+
+.footer_02{
+	float:right;
+	width:50%;
+	text-align:center;
+}
+
+.socials li{
+	display:inline;
+	padding:0em 2em 0em 2em;
+}
